@@ -1,0 +1,39 @@
+.movie
+{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    max-width: 300px;
+    // background: #f7f7f7;
+    
+    .body
+    {
+        white-space: normal;
+    }
+    border: 1px solid black;
+    .movie-card
+    { 
+        .stars
+        {
+            transform: translateZ(1px) !important;
+        }
+        position: relative;
+        height: 500px;
+        .poster
+         {
+            
+            width: 300px;
+            height: 345px;
+         }
+       .title
+       {
+           display: flex;
+           justify-content: center;
+       }
+    }
+   
+}
+
+.movie:hover 
+{
+    opacity: 0.6 !important;
+}
